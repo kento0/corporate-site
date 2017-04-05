@@ -110,14 +110,15 @@ header {
       padding: 80px; } }
 
 #cover_area h1 {
-  font-size: 4.0rem;
+  font-size: 1.6rem;
   line-height: 1.2;
   letter-spacing: -.1rem;
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
   @media (min-width: 550px) {
     #cover_area h1 {
-      font-size: 5.0rem;
+      font-size: 3.2rem;
       text-align: center;
       color: white;
       font-weight: bold;
@@ -160,9 +161,11 @@ header {
   font-weight: bold;
   background-color: #f3f9fb;
   padding: 15px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  margin-top: 20px; }
 
 .pc_sidemenu li {
+  text-decoration: none;
   list-style: none;
   display: block;
   border-bottom: 1px solid #e5e5e5;
@@ -170,11 +173,11 @@ header {
   background-position: 8px center;
   margin-bottom: 0px;
   padding: 10px 10px 10px 20px;
-  background-image: url(../images/news/side_arrow.png);
+  background-image: url(../images/top/news/side_arrow.png);
   background-size: 4px 8px; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     .pc_sidemenu li {
-      background-image: url(../images/news/side_arrow@2x.png); } }
+      background-image: url(../images/top/news/side_arrow@2x.png); } }
 
 footer {
   background-color: #42b9d0;

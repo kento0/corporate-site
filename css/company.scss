@@ -196,14 +196,15 @@ header{
 }
   
   #cover_area h1{
-    font-size: 4.0rem;
+    font-size: 1.6rem;
     line-height: 1.2;
     letter-spacing: -.1rem;
     color: white;
     text-align: center;
+    font-weight: bold;
     
     @media (min-width: 550px){
-      font-size: 5.0rem;
+      font-size: 3.2rem;
       text-align: center;
       color: white;
       font-weight: bold;
@@ -257,6 +258,7 @@ header{
     background-color: #f3f9fb;
     padding: 15px;
     margin-bottom: 0px;
+    margin-top: 20px;
 }
 
  .pc_sidemenu li {
