@@ -197,11 +197,11 @@ header{
   
   #cover_area h1{
     font-size: 1.6rem;
-    line-height: 1.2;
-    letter-spacing: -.1rem;
+    letter-spacing: 0.2rem;
     color: white;
     text-align: center;
     font-weight: bold;
+    margin: 0;
     
     @media (min-width: 550px){
       font-size: 3.2rem;

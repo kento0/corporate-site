@@ -111,11 +111,11 @@ header {
 
 #cover_area h1 {
   font-size: 1.6rem;
-  line-height: 1.2;
-  letter-spacing: -.1rem;
+  letter-spacing: 0.2rem;
   color: white;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 0; }
   @media (min-width: 550px) {
     #cover_area h1 {
       font-size: 3.2rem;
@@ -165,6 +165,10 @@ header {
       display: inline-block;
       margin-bottom: 0; } }
 
+@media (max-width: 550px) {
+  .pc_sidemenu {
+    display: none; } }
+
 .pc_sidemenu h3 {
   color: #42b9d0;
   font-size: 14px;
@@ -194,7 +198,8 @@ header {
 footer {
   background-color: #42b9d0;
   color: #fff;
-  padding-top: 20px; }
+  padding-top: 20px;
+  margin-top: 40px; }
   @media (max-width: 550px) {
     footer .container {
       margin: 0;
